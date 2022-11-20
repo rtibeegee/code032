@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/teach"
+            android:icon="@drawable/ic_baseline_people_alt_24"
+            android:title="postavi oglas za cas"></item>
+
+        <item
+            android:id="@+id/attend"
+            android:icon="@drawable/ic_baseline_person_outline_24"
+            android:title="trazi cas"></item>
+
+        <item
+            android:id="@+id/book_sell"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="prodaj knjigu"></item>
+
+        <item
+            android:id="@+id/book_purchase"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title="kupi knjigu"></item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Prijavite se">
+            <menu>
+                <group>
+                    <item android:id="@+id/login"
+                        android:title="ulogujte se"
+                        android:icon="@drawable/ic_baseline_key_24">
+                    </item>
+
+
+                    <item android:id="@+id/signup"
+                        android:title="napravite nalog"
+                        android:icon="@drawable/ic_baseline_key_24">
+                    </item>
+
+
+
+                </group>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Izlogujte se">
+            <menu>
+                <group>
+                    <item android:id="@+id/logout"
+                        android:icon="@drawable/ic_baseline_key_24"
+                        android:title="izlogujte se"
+                         />
+
+
+
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
